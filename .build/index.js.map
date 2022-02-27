@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["import { Link, LinkedList } from './Link';\n\nlet list = new LinkedList<Number>(0);\nlist.insert(1);\nlist.insert(2);\nlist.insert(3);\nlist.insert(4);\nlist.insert(5);\nlist.log();\n\n\nfor (let x of list.iterate()) {\n  console.log(x.val);\n}"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA,kBAAiC;AAEjC,IAAI,OAAO,IAAI,uBAAmB;AAClC,KAAK,OAAO;AACZ,KAAK,OAAO;AACZ,KAAK,OAAO;AACZ,KAAK,OAAO;AACZ,KAAK,OAAO;AACZ,KAAK;AAGL,SAAS,KAAK,KAAK,WAAW;AAC5B,UAAQ,IAAI,EAAE;AAAA;",
+  "names": []
+}
